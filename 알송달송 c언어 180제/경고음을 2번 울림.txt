@@ -1,0 +1,6 @@
+//경고음을 2번 울림
+#include <stdio.h>
+int main(){
+	printf("경고!!\a 경고!!\a");
+	return 0;
+}

@@ -1,0 +1,8 @@
+//인삿말 출력(도중에 빈 줄 삽입)
+#include <stdio.h>
+int main(){
+	printf("여보세요 \n\n");
+	printf("안녕하세요\n\n");
+	printf("그럼 이만");
+	return 0;
+}
