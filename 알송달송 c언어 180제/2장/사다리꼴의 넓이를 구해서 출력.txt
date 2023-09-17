@@ -1,0 +1,14 @@
+//사다리꼴의 넓이를 구해서 출력
+#include <stdio.h>
+int main() {
+	int a1, a2, a3;
+	
+	printf("윗변 :");
+	scanf("%d", &a1);
+	printf("밑변 :");
+	scanf("%d", &a2);
+	printf("높이 :");
+	scanf("%d", &a3);
+	printf("넓이는 %f입니다", (double)(a1+a2)*a3/2);
+	return 0;
+}

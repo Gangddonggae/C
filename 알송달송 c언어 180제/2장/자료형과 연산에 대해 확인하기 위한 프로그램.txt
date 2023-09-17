@@ -1,0 +1,38 @@
+//자료형과 연산에 대해 확인하기 위한 프로그램
+#include <stdio.h>
+int main() {
+	int a1, a2;
+	double b1, b2;
+	printf("정수와 실수를 2개씩 입력하세요.\n");
+	printf("정수 a1 :");
+	scanf("%d", &a1);
+	printf("정수 a2 :");
+	scanf("%d", &a2);
+	printf("실수 b1 :");
+	scanf("%lf", &b1);
+	printf("실수 b2 :");
+	scanf("%lf", &b2);
+
+	printf("5 * 2 = %d\n", 5 * 2);
+	printf("5 / 2 = %d\n", 5 / 2);
+	printf("5 * a1 = %d\n", 5 * a1);
+	printf("5 / a1 = %d\n", 5 / a1);
+	printf("a1 * a2 = %d\n", a1 * a2);
+	printf("a1 / a2 = %d\n", a1 / a2);
+
+	printf("5 * 2.5 = %f\n", 5 * 2.5);
+	printf("5 / 2.5 = %f\n", 5 / 2.5);
+	printf("5 * b1 = %f\n", 5 * b1);
+	printf("5 / b1 = %f\n", 5 / b1);
+	printf("a1 * b2 = %f\n", a1 * b2);
+	printf("a1 / b2 = %f\n", a1 / b2);
+
+	printf("5.3 * 2.5 = %f\n", 5.3 * 2.5);
+	printf("5.3 / 2.5 = %f\n", 5.3 / 2.5);
+	printf("5.3 * b1 = %f\n", 5.3 * b1);
+	printf("5.3/ b1 = %f\n", 5.3 / b1);
+	printf("b1 * b2 = %f\n", b1 * b2);
+	printf("b1 / b2 = %f\n", b1 / b2);
+
+	return 0;
+}

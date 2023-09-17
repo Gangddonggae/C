@@ -1,0 +1,11 @@
+//읽어 들인 정숫값을 5로 나눈 몫과 나머지를 출력
+#include <stdio.h>
+int main() {
+	int a1;
+	printf("정수n을 입력하세요 : ");
+	scanf("%d", &a1);
+	printf("n / 5는 %d 입니다.\n", a1/5);
+	printf("n %% 5는 %d입니다.\n", a1%5);
+	
+	return 0;
+}

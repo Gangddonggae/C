@@ -1,0 +1,15 @@
+//읽어 들인 정숫값 2개의 평균값 부호를 바꿔서 출력
+#include <stdio.h>
+int main() {
+	int a1,a2;
+	int aver;
+	printf("2개의 정숫값을 입력하세요.\n");
+	printf("정수 x :");
+	scanf("%d", &a1);
+	printf("정수 y :");
+	scanf("%d", &a2);
+	aver = (a1 + a2) / 2;
+	printf("평균값의 부호를 반전한 값은 %d입니다.\n", -aver);
+	
+	return 0;
+}

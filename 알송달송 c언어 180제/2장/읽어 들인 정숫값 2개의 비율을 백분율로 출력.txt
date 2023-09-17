@@ -1,0 +1,13 @@
+//읽어 들인 정숫값 2개의 비율을 백분율로 출력
+#include <stdio.h>
+int main() {
+	int a1,a2;
+	printf("2개의 정숫값을 입력하세요.\n");
+	printf("정수 x :");
+	scanf("%d", &a1);
+	printf("정수 y :");
+	scanf("%d", &a2);
+	printf("x값은 y값의 %d%%입니다.\n", 100*a1/a2);
+	
+	return 0;
+}

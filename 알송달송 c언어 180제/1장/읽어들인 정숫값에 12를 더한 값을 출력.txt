@@ -1,0 +1,8 @@
+//읽어들인 정숫값에 12를 더한 값을 출력
+#include <stdio.h>
+int main() {
+	int a = 0;
+	scanf("%d", &a);
+	printf("%d", a+12);
+	return 0;
+}
