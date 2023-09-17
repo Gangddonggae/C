@@ -1,7 +1,0 @@
-//변수에 정숫값을 대입하고 출력
-#include <stdio.h>
-int main() {
-	int a = 15;
-	printf("%d", a);
-	return 0;
-}

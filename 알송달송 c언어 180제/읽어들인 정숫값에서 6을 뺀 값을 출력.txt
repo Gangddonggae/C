@@ -1,8 +1,0 @@
-//읽어들인 정숫값에서 6을 뺀 값을 출력
-#include <stdio.h>
-int main() {
-	int a = 0;
-	scanf("%d", &a);
-	printf("%d", a-6);
-	return 0;
-}

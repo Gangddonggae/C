@@ -1,8 +1,0 @@
-//2개의 변수를 초기화하고 출력
-#include <stdio.h>
-int main() {
-	int a = 12;
-	int b = 13;
-	printf("%d %d", a, b);
-	return 0;
-}
