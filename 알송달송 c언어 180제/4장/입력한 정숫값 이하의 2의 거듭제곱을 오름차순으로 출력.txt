@@ -1,0 +1,13 @@
+//입력한 정숫값 이하의 2의 거듭제곱을 오름차순으로 출력
+#include <stdio.h>
+int main() {
+	int a;
+	int d = 1;
+	printf("양의 정수를 입력하세요: ");
+	scanf("%d", &a);
+	while (a >= 2*d) {
+		d *= 2;
+		printf("%d ", d);
+	}
+	return 0;
+}

@@ -1,0 +1,17 @@
+//읽어 들인 정숫값의 부호를 판정
+#include <stdio.h>
+int main() {
+	int a;
+	printf("정수를 입력하세요 :");
+	scanf("%d", &a);
+	if (a == 0) {
+		printf("이 수는 0입니다.");
+	}
+	else if (a > 0) {
+		printf("이 수는 양수입니다.");
+	}
+	else {
+		printf("이 수는 음수입니다.");
+	}
+	return 0;
+}

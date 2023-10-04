@@ -1,0 +1,14 @@
+//읽어 들인 정숫값부터 0까지 카운트 다운
+#include <stdio.h>
+int main() {
+	int a,d;
+	int sum =0;
+	printf("양의 정수를 입력하세요: ");
+	scanf("%d", &a);
+	sum = a;
+	for (int i = 0; i <= a; i++) {
+		printf("%d ", sum);
+		sum--;
+	}
+	return 0;
+}

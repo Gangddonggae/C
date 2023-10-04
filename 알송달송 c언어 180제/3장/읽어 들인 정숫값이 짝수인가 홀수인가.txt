@@ -1,0 +1,14 @@
+//읽어 들인 정숫값이 짝수인가 홀수인가?
+#include <stdio.h>
+int main() {
+	int a;
+	printf("정수를 입력하세요 :");
+	scanf("%d", &a);
+	if (a % 2 == 0) {
+		printf("이 값은 짝수 입니다.");
+	}
+	else {
+		printf("이 값은 홀수 입니다.");
+	}
+	return 0;
+}

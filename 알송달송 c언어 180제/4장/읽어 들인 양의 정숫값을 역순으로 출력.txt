@@ -1,0 +1,24 @@
+//읽어 들인 양의 정숫값을 역순으로 출력
+#include <stdio.h>
+int main() {
+	int a;
+	printf("양의 정수를 입력하세요: ");
+	scanf("%d", &a);
+	if (a <= 0) {
+		printf("\a양의 정수만 입력해주세요.");
+	}
+	printf("%d을 거꾸로 읽으면 ", a);
+	while (1) {
+		if (a >= 10) {
+			printf("%d", a % 10);
+			a /= 10;
+		}
+		else {
+			printf("%d", a%10);
+			break;
+		}
+	}
+	printf("입니다.");
+
+	return 0;
+}

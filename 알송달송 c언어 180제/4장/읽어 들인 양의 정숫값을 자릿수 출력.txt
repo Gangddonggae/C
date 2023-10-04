@@ -1,0 +1,21 @@
+//읽어 들인 양의 정숫값을 자릿수 출력
+#include <stdio.h>
+int main() {
+	int a,b;
+	int d = 1;
+	printf("양의 정수를 입력하세요: ");
+	scanf("%d", &a);
+	b = a;
+	while (1) {
+		if (a >= 10) {
+			d++;
+			a /= 10;
+		}
+		else {
+			break;
+		}
+	}
+	printf("%d은 %d자리입니다. ", b,d);
+
+	return 0;
+}

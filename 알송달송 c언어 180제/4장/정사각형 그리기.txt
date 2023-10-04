@@ -1,0 +1,17 @@
+//정사각형 그리기
+#include <stdio.h>
+int main() {
+	int a;
+	printf("정사각형을 그립니다.\n");
+	printf("높이는 얼마입니까? ");
+	scanf("%d", &a);
+
+	for (int b = 0; b < a; b++) {
+		for (int q = 0; q < a; q++) {// 2차원이므로 이중 반복문
+			printf("* ");
+		}
+		printf("\n");//너비 끝.
+	}
+
+	return 0;
+}

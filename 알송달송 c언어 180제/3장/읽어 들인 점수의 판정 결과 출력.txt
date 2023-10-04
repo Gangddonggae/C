@@ -1,0 +1,23 @@
+//읽어 들인 점수의 판정 결과 출력
+#include <stdio.h>
+int main() {
+	int a;
+	printf("점수 :");
+	scanf("%d", &a);
+	if (a > 100 || a < 0) {
+		printf("올바르지 않은 점수 입니다.");
+	}
+	else if (a >= 0 && a< 60){
+		printf("불가");
+	}
+	else if (a >= 60 && a<70) {
+		printf("가능");
+	}
+	else if (a >= 70 && a < 80) {
+		printf("양호");
+	}
+	else if (a >= 80 && a <= 100) {
+		printf("우수");
+	}
+	return 0;
+}

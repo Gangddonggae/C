@@ -1,0 +1,19 @@
+//읽어 들인 정숫값 2개의 차이를 구해서 출력
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main() {
+	int a,b,c;
+	int a2=0;
+	printf("2개의 정수를 입력하세요.\n");
+	printf("정수 1 :");
+	scanf("%d", &a);
+	printf("정수 2 :");
+	scanf("%d", &b);
+	if (a > b) {
+		printf("두 값의 차이는 %d입니다.", a-b);
+	}
+	else if (a <= b) {
+		printf("두 값의 차이는 %d입니다.", b-a);
+	}
+	return 0;
+}

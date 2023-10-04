@@ -1,0 +1,13 @@
+//읽어 들인 정수 개수만큼 *를 연속 출력
+#include <stdio.h>
+int main() {
+	int a;
+	int d = 1;
+	printf("양의 정수: ");
+	scanf("%d", &a);
+	while (a >= d) {
+		printf("*");
+		d++;
+	}
+	return 0;
+}

@@ -1,0 +1,13 @@
+//읽어 들인 정숫값 이하의 짝수를 오름차순으로 출력
+#include <stdio.h>
+int main() {
+	int a,d;
+	int sum =2;
+	printf("양의 정수를 입력하세요: ");
+	scanf("%d", &a);
+	for (int i = 0; i < a/2; i++) {
+		printf("%d ", sum);
+		sum+=2;
+	}
+	return 0;
+}

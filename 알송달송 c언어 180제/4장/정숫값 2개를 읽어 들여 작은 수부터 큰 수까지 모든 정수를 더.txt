@@ -1,0 +1,15 @@
+//정숫값 2개를 읽어 들여 작은 수부터 큰 수까지 모든 정수를 더한 값 출력
+#include <stdio.h>
+int main() {
+	int a,d;
+	int sum =0;
+	printf("정수 A: ");
+	scanf("%d", &a);
+	printf("정수 B:");
+	scanf("%d", &d);
+	for (int i = a; i <= d; i++) {
+		sum += i;
+	}
+	printf("%d 이상 %d 이하의 모든 정수를 더한 값은 %d입니다.", a,d,sum);
+	return 0;
+}

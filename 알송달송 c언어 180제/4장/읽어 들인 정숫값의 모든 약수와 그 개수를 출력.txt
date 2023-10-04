@@ -1,0 +1,22 @@
+//읽어 들인 정숫값의 모든 약수와 그 개수를 출력
+#include <stdio.h>
+int main() {
+	int a;
+	int d = 0;
+	int q = 0;
+	printf("정숫값: ");
+	scanf("%d", &a);
+	while (1) {
+		d++;
+		if (a % d == 0) {
+			printf("%d", d);
+			printf("\n");
+			q++;
+		}
+		if (d == a) {
+			break;
+		}
+	}
+	printf("약수는 %d개입니다.", q);
+	return 0;
+}

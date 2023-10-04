@@ -1,0 +1,23 @@
+//피라미드 그리기
+#include <stdio.h>
+int main() {
+	int a;
+	int d=0;
+	int c = 0;
+	printf("피라미드를 만듭니다.\n");
+	printf("몇 단인가요?");
+	scanf("%d", &a);
+	c = a;
+	for (int s = 1; s <= a; s++) {
+		for (int i = 0; i < c-s; i++) {//가운데 정렬하기
+			printf(" ");
+		}
+		
+		for (int w = 0; w < (2*s)-1; w++) {//가운데 값 *표현
+			printf("*");
+		}
+		printf("\n");
+	}
+
+	return 0;
+}

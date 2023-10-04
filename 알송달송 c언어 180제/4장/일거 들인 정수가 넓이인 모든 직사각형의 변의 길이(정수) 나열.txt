@@ -1,0 +1,19 @@
+//일거 들인 정수가 넓이인 모든 직사각형의 변의 길이(정수) 나열
+#include <stdio.h>
+int main() {
+	int a;
+	int d = 0;
+	printf("정숫값: ");
+	scanf("%d", &a);
+	while (1) {
+		d++;
+		if (a % d == 0) {
+			printf("%d X %d", d, a/d);
+			printf("\n");
+		}
+		if (a/d < d) {
+			break;
+		}
+	}
+	return 0;
+}

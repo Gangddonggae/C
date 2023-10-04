@@ -1,0 +1,17 @@
+//읽어 들인 정숫값 2개의 차이가 10이하인지 아닌지 출력
+#include <stdio.h>
+int main() {
+	int a,b,c;
+	printf("2개의 정수를 입력하세요.\n");
+	printf("정수 A :");
+	scanf("%d", &a);
+	printf("정수 B :");
+	scanf("%d", &b);
+	if (a-b >= -10 && a - b <= 10) {
+		printf("두 값의 차이는 10 이하 입니다.");
+	}
+	else {
+		printf("두 값의 차이는 11이상입니다.");
+	}
+	return 0;
+}
